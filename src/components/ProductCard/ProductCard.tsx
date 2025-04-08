@@ -37,7 +37,7 @@ export const ProductCard = ({ id, name, price, image }: ProductTypes) => {
             src={image}
             alt={name}
             width={200}
-            height={200}
+            height={400}
             className={styles.image}
           />
         </div>
