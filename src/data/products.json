@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "iPhone 13", "price": 799, "image": "/iphone13.webp" },
+  { "id": 2, "name": "Samsung Galaxy S22", "price": 749, "image": "/GalaxyS22.webp" },
+  { "id": 3, "name": "Google Pixel 6", "price": 599, "image": "/googlePixel.webp" },
+  { "id": 4, "name": "MacBook Pro", "price": 1299, "image": "/macbook.webp" },
+  { "id": 5, "name": "iPad Air", "price": 599, "image": "/iPadAir.webp" },
+  { "id": 6, "name": "AirPods Pro", "price": 249, "image": "/iphone13.webp" },
+  { "id": 7, "name": "Apple Watch Series 7", "price": 399, "image": "/iphone13.webp" },
+  { "id": 8, "name": "Samsung Galaxy Tab S8", "price": 699, "image": "/iphone13.webp" },
+  { "id": 9, "name": "Sony WH-1000XM4", "price": 349, "image": "/iphone13.webp" },
+  { "id": 10, "name": "Nintendo Switch", "price": 299, "image": "/iphone13.webp" },
+  { "id": 11, "name": "Xbox Series X", "price": 499, "image": "/iphone13.webp" },
+  { "id": 12, "name": "PlayStation 5", "price": 499, "image": "/iphone13.webp" }
+] 

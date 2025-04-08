@@ -1,0 +1,118 @@
+// Cart.module.scss
+
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .cartList {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        .cartItem {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+
+            .productInfo {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .productImage {
+                    border-radius: 8px;
+                    object-fit: cover;
+                }
+
+                .quantityControl {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    margin-top: 0.5rem;
+
+                    button {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #eee;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        font-weight: bold;
+                    }
+
+                    span {
+                        font-weight: bold;
+                        min-width: 24px;
+                        text-align: center;
+                    }
+                }
+
+            }
+
+
+
+            h3 {
+                margin: 0;
+            }
+
+            p {
+                margin: 0.5rem 0 0 0;
+            }
+
+            .removeButton {
+                background-color: #ff4d4f;
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #d9363e;
+                }
+            }
+        }
+    }
+
+    .clearButton {
+        display: block;
+        margin: 2rem auto 0;
+        padding: 0.75rem 2rem;
+        background-color: #000;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #222;
+        }
+    }
+}
+
+// Для иконки корзины
+.cartIconWrapper {
+    position: relative;
+
+    .cartCount {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background-color: #ff4d4f;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+    }
+}
